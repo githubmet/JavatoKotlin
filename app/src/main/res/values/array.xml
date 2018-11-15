@@ -2,9 +2,9 @@
 <resources>
 
     <string-array name="activity_names">
-        <item>P001</item>
-        <item>P002</item>
-        <item>P003</item>
+        <item>P001Intent</item>
+        <item>P002TextPlay</item>
+        <item>P003MenuItem</item>
         <item>P004</item>
         <item>P005</item>
     </string-array>
