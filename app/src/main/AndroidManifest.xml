@@ -22,6 +22,8 @@
         <activity android:name=".P002TextPlay"></activity>
         <activity android:name=".P003MenuItem"></activity>
         <activity android:name=".P004CreateUserface"></activity>
+        <activity android:name=".P005ListViewCustomRow"></activity>
+        <activity android:name=".P006Gesture"></activity>
     </application>
 
 </manifest>

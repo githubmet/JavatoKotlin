@@ -5,7 +5,8 @@
         <item>P001Intent</item>
         <item>P002TextPlay</item>
         <item>P003MenuItem</item>
-        <item>P004</item>
-        <item>P005</item>
+        <item>P004CreateUserface</item>
+        <item>P005ListViewCustomRow</item>
+        <item>P006Gesture</item>
     </string-array>
 </resources>
