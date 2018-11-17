@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:hint="@string/type_your_name_and_surname" android:id="@+id/editTextP007"/>
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:text="@string/save" android:id="@+id/buttonSaveP007"/>
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/load" android:id="@+id/buttonLoadP007"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:text="@string/text" android:id="@+id/textViewP007"/>
+
+</LinearLayout>

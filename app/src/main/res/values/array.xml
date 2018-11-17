@@ -8,5 +8,8 @@
         <item>P004CreateUserface</item>
         <item>P005ListViewCustomRow</item>
         <item>P006Gesture</item>
+        <item>P007SharedPreferences</item>
+        <item>P008TabHostTabSpec</item>
+        <item>P009FileOutputStream</item>
     </string-array>
 </resources>
