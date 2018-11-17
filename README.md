@@ -5,3 +5,5 @@
 - [x] layoutParams
 - [x] menu item
 - [x] creating userface programatically
+- [x] arrayAdapter
+- [x] gesture
