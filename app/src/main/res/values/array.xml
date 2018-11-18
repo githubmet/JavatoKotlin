@@ -11,5 +11,6 @@
         <item>P007SharedPreferences</item>
         <item>P008TabHostTabSpec</item>
         <item>P009FileOutputStream</item>
+        <item>P011AlertDialog</item>
     </string-array>
 </resources>

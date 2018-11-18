@@ -18,27 +18,27 @@ class P002TextPlay: Activity(), View.OnClickListener {
         )
         when(p0?.id){
             R.id.buttonLeftP002 -> {
-                Toast.makeText(this, resources.getString(R.string.left), Toast.LENGTH_SHORT).show()
                 textView?.text=resources.getString(R.string.left)
                 layoutParamsOfTextView.addRule(RelativeLayout.ALIGN_PARENT_LEFT)
+                layoutParamsOfTextView.addRule(RelativeLayout.CENTER_VERTICAL)
                 textView?.layoutParams=layoutParamsOfTextView
             }
             R.id.buttonRightP002 -> {
-                Toast.makeText(this, resources.getString(R.string.right), Toast.LENGTH_SHORT).show()
                 textView?.text = resources.getString(R.string.right)
                 layoutParamsOfTextView.addRule(RelativeLayout.ALIGN_PARENT_RIGHT)
+                layoutParamsOfTextView.addRule(RelativeLayout.CENTER_VERTICAL)
                 textView?.layoutParams=layoutParamsOfTextView
             }
             R.id.buttonUpP002 -> {
-                Toast.makeText(this, resources.getString(R.string.up), Toast.LENGTH_SHORT).show()
                 textView?.text = resources.getString(R.string.up)
                 layoutParamsOfTextView.addRule(RelativeLayout.ALIGN_PARENT_TOP)
+                layoutParamsOfTextView.addRule(RelativeLayout.CENTER_HORIZONTAL)
                 textView?.layoutParams=layoutParamsOfTextView
             }
             R.id.buttonDownP002 -> {
-                Toast.makeText(this, resources.getString(R.string.down), Toast.LENGTH_SHORT).show()
                 textView?.text = resources.getString(R.string.down)
                 layoutParamsOfTextView.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM)
+                layoutParamsOfTextView.addRule(RelativeLayout.CENTER_HORIZONTAL)
                 textView?.layoutParams=layoutParamsOfTextView
             }
         }

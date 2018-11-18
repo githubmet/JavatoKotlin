@@ -13,9 +13,9 @@ class P010FileInputStream:Activity(){
 
         var fileInputStream=openFileInput(P009FileOutputStream().FILEOUTPUT_NAME)
         var byteArray=ByteArray(fileInputStream.available())
-        var data:String?=null
+        var data:Byte?=null
         when(fileInputStream.read(byteArray) !=-1){
-            data= byteArray.toString()
+
 
 
         }

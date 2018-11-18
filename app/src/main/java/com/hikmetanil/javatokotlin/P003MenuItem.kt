@@ -30,7 +30,7 @@ class P003MenuItem : AppCompatActivity(){
 
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
         when(item?.itemId){
-            R.id.item_red_p003 -> relativeLayout?.setBackgroundResource(R.color.colorAccent)
+            R.id.item_red_p003 -> Toast.makeText(this,R.string.text,Toast.LENGTH_SHORT).show()
             R.id.item_green_p003 -> relativeLayout?.setBackgroundResource(R.color.colorPrimary)
             R.id.item_blue_p003 -> relativeLayout?.setBackgroundResource(R.color.colorPrimaryDark)
         }
