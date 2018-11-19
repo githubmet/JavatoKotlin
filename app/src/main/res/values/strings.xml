@@ -21,4 +21,6 @@
     <string name="cancel">Cancel</string>
     <string name="intent">Intent</string>
     <string name="context_menu">Context menu</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
 </resources>

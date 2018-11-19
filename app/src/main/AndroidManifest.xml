@@ -31,6 +31,9 @@
         <activity android:name=".P011AlertDialog"></activity>
         <activity android:name="P012ContextMenu"></activity>
         <activity android:name=".P013EditTextChangedListView"></activity>
+        <activity android:name=".P014DrawerLayout"></activity>
+        <activity android:name=".P015DrawerLayoutFull"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
     </application>
 
 </manifest>
