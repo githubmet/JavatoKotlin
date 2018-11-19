@@ -12,5 +12,35 @@
         <item>P008TabHostTabSpec</item>
         <item>P009FileOutputStream</item>
         <item>P011AlertDialog</item>
+        <item>P012ContextMenu</item>
+        <item>P013EditTextChangedListView</item>
+    </string-array>
+
+    <string-array name="names_p013">
+        <item>aname</item>
+        <item>bname</item>
+        <item>cname</item>
+        <item>dname</item>
+        <item>ename</item>
+        <item>a2name</item>
+        <item>b2name</item>
+        <item>c2name</item>
+        <item>d2name</item>
+        <item>e2name</item>
+        <item>a3name</item>
+        <item>b3name</item>
+        <item>c3name</item>
+        <item>d3name</item>
+        <item>e3name</item>
+        <item>a4name</item>
+        <item>b4name</item>
+        <item>c4name</item>
+        <item>d4name</item>
+        <item>e4name</item>
+        <item>a5name</item>
+        <item>b5name</item>
+        <item>c5name</item>
+        <item>d5name</item>
+        <item>e5name</item>
     </string-array>
 </resources>

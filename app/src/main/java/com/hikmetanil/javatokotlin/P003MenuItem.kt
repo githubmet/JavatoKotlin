@@ -30,11 +30,10 @@ class P003MenuItem : AppCompatActivity(){
 
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
         when(item?.itemId){
-            R.id.item_red_p003 -> Toast.makeText(this,R.string.text,Toast.LENGTH_SHORT).show()
-            R.id.item_green_p003 -> relativeLayout?.setBackgroundResource(R.color.colorPrimary)
-            R.id.item_blue_p003 -> relativeLayout?.setBackgroundResource(R.color.colorPrimaryDark)
+            R.id.item_red_p003 -> Toast.makeText(this,R.string.red,Toast.LENGTH_SHORT).show()
+            R.id.item_green_p003 -> Toast.makeText(this,R.string.green,Toast.LENGTH_SHORT).show()
+            R.id.item_blue_p003 -> Toast.makeText(this,R.string.blue,Toast.LENGTH_SHORT).show()
         }
-        item?.setChecked(!item?.isChecked)
         return super.onOptionsItemSelected(item)
     }
 }

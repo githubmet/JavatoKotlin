@@ -29,6 +29,8 @@
         <activity android:name=".P009FileOutputStream"></activity>
         <activity android:name=".P010FileInputStream"></activity>
         <activity android:name=".P011AlertDialog"></activity>
+        <activity android:name="P012ContextMenu"></activity>
+        <activity android:name=".P013EditTextChangedListView"></activity>
     </application>
 
 </manifest>

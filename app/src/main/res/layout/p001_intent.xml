@@ -6,6 +6,7 @@
     <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
     android:id="@+id/editTextP001" android:layout_centerInParent="true"/>
     <Button android:layout_width="match_parent" android:layout_height="wrap_content"
-    android:id="@+id/buttonP001" android:layout_below="@+id/editTextP001"/>
+    android:id="@+id/buttonP001" android:layout_below="@+id/editTextP001"
+    android:text="@string/intent"/>
 
 </RelativeLayout>
